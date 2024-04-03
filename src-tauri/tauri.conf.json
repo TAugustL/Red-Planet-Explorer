@@ -1,0 +1,45 @@
+{
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devPath": "http://localhost:1420",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "red planet explorer",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "dialog": {
+        "message": true
+      },
+      "all": false,
+      "shell": {
+        "all": false,
+        "open": true
+      }
+    },
+    "windows": [
+      {
+        "title": "Red Planet Explorer",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "security": {
+      "csp": null
+    },
+    "bundle": {
+      "active": true,
+      "targets": "all",
+      "identifier": "com.red.explorer",
+      "icon": [
+        "icons/expIcon32x32.png",
+        "icons/expIcon128x128.png",
+        "icons/expIcon256x256.png",
+        "icons/expIcons.ico"
+      ]
+    }
+  }
+}

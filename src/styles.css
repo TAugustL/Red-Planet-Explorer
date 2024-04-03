@@ -1,0 +1,314 @@
+
+/* My CSS */
+#output, #left-out {
+  background-color: rgb(100, 100, 100);
+  margin: 16px 16px 10px 10px;
+  padding: 10px 10px 0px 10px;
+
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+
+  width: 58vw;
+  height: 60vh;
+
+  text-align: left;
+  overflow: auto;
+  box-shadow: 7px 7px 0px 0px rgb(20, 20, 20);
+}
+
+#left-out {
+  width: 25vw;
+  height: 69vh;
+  margin: 16px 5px 5px 5px;
+  padding-bottom: 6px;
+  vertical-align: top;
+}
+
+.left-out-btn {
+  text-align: left;
+  white-space: nowrap;
+  max-height: 50px;
+  width: 90%;
+  padding: 6px;
+  font-size: 12px;
+  overflow-x: auto;
+}
+
+.left-out-btn:hover {
+  background-color: #507bd6;
+}
+
+.file-type {
+  display: inline-block;
+  margin: 0;
+  width: 10%;
+  font-size: 10px;
+}
+
+.dir {
+  color: #ff6f00;
+  user-select: none;
+}
+
+.file {
+  color: #00a8ff;
+  user-select: none;
+}
+
+br {
+  user-select: none;
+}
+
+.selected {
+  background-color: #396cd8;
+}
+
+li {
+  height: 20px;
+  white-space: nowrap;
+  text-align: left;
+}
+
+.search_results {
+  width: 64vw;
+  overflow: hidden;
+}
+
+.menu_button {
+  flex-grow: 1;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  margin: 2px 7px 2px 2px;
+}
+
+input[type="number"] {
+  width: 30px;
+  height: 10px;
+  text-align: center;
+  appearance: none;
+  margin: 2px 7px 2px 2px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button[type="submit"] {
+  margin: 0 5px 0 10px;
+  padding: 1;
+  height: 30px;
+}
+
+p {
+  margin: 8px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #7e7e7e;
+  color: white;
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  font-size: 12px;
+  display: none;
+  position: absolute;
+  background-color: #616161;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #535353;
+}
+
+.container {  
+  display: grid;
+  grid-template-columns:33% 33% 33%;
+  grid-template-rows: auto;
+  gap: 3px;
+}
+
+.top1 { 
+  grid-row: 1 / 2;
+  grid-column: 1 / 4;
+
+}
+
+.top2 { 
+  grid-row: 2 / 3;
+  grid-column: 1 / 4;
+}
+
+.top1, .top2 {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #3f3f3f;
+  border-radius: 3px;
+  height: 23px;
+}
+
+.left, .right1, .right2, .bottom {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: #3f3f3f;
+  border-radius: 3px;
+}
+
+.left { 
+  grid-row: 3 / 5;
+  grid-column: 1 / 2;
+
+  width: 30vw;
+  overflow: hidden;
+}
+
+.right1 { 
+  grid-row: 3 / 4;
+  grid-column: 2 / 4;
+
+  display: flex;
+}
+
+.right2 { 
+  grid-row: 4 / 5;
+  grid-column: 2 / 4;
+
+}
+
+.bottom { 
+  grid-row: 5 / 6;
+  grid-column: 1 / 4;
+  justify-content: center;
+  align-content: center;
+
+  max-height: 50px;
+}
+
+/* Tauri generated CSS */
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #0f0f0f;
+  background-color: #f6f6f6;
+  overflow: hidden;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.main_container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: start;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+  display: inline;
+}
+
+a:hover {
+  color: #535bf2;
+  cursor: pointer;
+}
+
+input,
+button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.2em 1.6em;
+  font-family: inherit;
+  color: #0f0f0f;
+  background-color: #ffffff;
+  transition: border-color 0.25s;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+  flex: 1;
+}
+
+button {
+  cursor: pointer;
+  user-select: none;
+}
+
+button:hover {
+  border-color: #e08e12;
+}
+button:active {
+  border-color: #c27b12;
+  background-color: #e8e8e8;
+}
+
+.input {
+  margin: 2px 0 2px 5px;
+  padding: 2px 11vw 0 5px;
+  height: 30px;
+}
+
+.path_input {
+  margin: 2px 0 2px 5px;
+  padding: 2px 11vw 0 5px;  
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #f6f6f6;
+    background-color: #2f2f2f;
+  }
+
+  a:hover {
+    color: #24c8db;
+  }
+
+  input,
+  button {
+    color: #ffffff;
+    background-color: #0f0f0f98;
+  }
+  button:active {
+    background-color: #0f0f0f69;
+  }
+}
