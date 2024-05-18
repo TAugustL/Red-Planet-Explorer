@@ -43,4 +43,4 @@ Red Planet Explorer is a file explorer that uses HTML, CSS and JavaScript as fro
 
 <hr>
 
-I know this is <u>not</u> a replacement for file explorers like the windows explorer (although the search is faster). This is my first desktop app I ever created, so please don't expect something too extraordinary ;) I probably wont update this projects, however you can still leave issues or tips for improvement.
+I know this is <u>not</u> a replacement for file explorers like the windows explorer (although the search is faster). This is my first desktop app I ever created, so please don't expect something too extraordinary ;) I probably wont update this project, however you can still leave issues or tips for improvement.
