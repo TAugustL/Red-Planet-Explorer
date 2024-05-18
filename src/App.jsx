@@ -351,7 +351,7 @@ function App() {
         </div>
 
         <div class="bottom">
-          <p>Made by <a target="_blank" href="https://github.com/TAugustL">Toni A. Lobach</a> | ©2024</p>
+          <p>Made by <a target="_blank" href="https://github.com/TAugustL">August</a> | ©2024</p>
         </div>
 
       </div>
